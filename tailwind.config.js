@@ -9,6 +9,20 @@ module.exports = {
         sans: ["SUIT Variable", ...fontFamily.sans],
         head: ["Meraki", ...fontFamily.sans],
       },
+      animation: {
+        left: "left 1s ease-in-out",
+        "left-out": "left-out 1s ease-in-out",
+      },
+      keyframes: {
+        left: {
+          "0%": { transform: "translateX(10%)", opacity: 0 },
+          "100%": { transform: "translateX(0)", opacity: 1 },
+        },
+        "left-out": {
+          "0%": { opacity: 1 },
+          "100%": { transform: "translateX(-10%)", opacity: 0 },
+        },
+      },
     },
   },
   plugins: [],
