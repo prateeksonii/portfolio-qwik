@@ -10,8 +10,8 @@ module.exports = {
         head: ["Meraki", ...fontFamily.sans],
       },
       animation: {
-        left: "left 1s ease-in-out",
-        "left-out": "left-out 1s ease-in-out",
+        left: "left 0.5s ease-in-out",
+        "left-out": "left-out 0.5s ease-in-out",
       },
       keyframes: {
         left: {
