@@ -24,7 +24,10 @@ export default component$(() => {
           Work
         </a>
         <div class="w-[1px] h-8 bg-white"></div>
-        <a class="hover:text-emerald-400 transition-all cursor-pointer hover:scale-110">
+        <a
+          href="#contact"
+          class="hover:text-emerald-400 transition-all cursor-pointer hover:scale-110"
+        >
           Contact
         </a>
       </div>

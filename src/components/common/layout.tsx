@@ -9,7 +9,7 @@ interface LayoutProps {
 export default component$((props: LayoutProps) => {
   return (
     <div id={props.id} class="flex flex-col min-h-screen">
-      <section class="mx-auto container flex-1 flex flex-col justify-center">
+      <section class="mx-auto container flex-1 flex flex-col justify-center snap-center">
         <Heading title={props.title} />
         <Slot />
       </section>
